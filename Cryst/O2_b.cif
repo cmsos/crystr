@@ -1,14 +1,53 @@
-# beta-O (fcc of diatomic molecules)
+# O cryst-beta [Meier84] (fcc of diatomic molecules)
 data_nolabel
-_chemical_formula_sum            O2
-_symmetry_space_group_name_H-M   'R-3m'
+_journal_paper_doi               10.1103/PhysRevB.29.1387
+_diffrn_ambient_temperature      30
 _cell_length_a                   3.289
 _cell_length_b                   3.289
-_cell_length_c                   11.281
+_cell_length_c                  11.281
 _cell_angle_alpha                90
 _cell_angle_beta                 90
-_cell_angle_gamma                120
-_diffrn_ambient_temperature      30
+_cell_angle_gamma               120
+_cell_formula_units_Z            3
+_symmetry_space_group_name_H-M   R-3m
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x-y,z
+-x+y,-x,z
+y,x,-z
+x-y,-y,-z
+-x,-x+y,-z
+-x,-y,-z
+y,-x+y,-z
+x-y,x,-z
+-y,-x,z
+-x+y,y,z
+x,x-y,z
+x+2/3,y+1/3,z+1/3
+-y+2/3,x-y+1/3,z+1/3
+-x+y+2/3,-x+1/3,z+1/3
+y+2/3,x+1/3,-z+1/3
+x-y+2/3,-y+1/3,-z+1/3
+-x+2/3,-x+y+1/3,-z+1/3
+-x+2/3,-y+1/3,-z+1/3
+y+2/3,-x+y+1/3,-z+1/3
+x-y+2/3,x+1/3,-z+1/3
+-y+2/3,-x+1/3,z+1/3
+-x+y+2/3,y+1/3,z+1/3
+x+2/3,x-y+1/3,z+1/3
+x+1/3,y+2/3,z+2/3
+-y+1/3,x-y+2/3,z+2/3
+-x+y+1/3,-x+2/3,z+2/3
+y+1/3,x+2/3,-z+2/3
+x-y+1/3,-y+2/3,-z+2/3
+-x+1/3,-x+y+2/3,-z+2/3
+-x+1/3,-y+2/3,-z+2/3
+y+1/3,-x+y+2/3,-z+2/3
+x-y+1/3,x+2/3,-z+2/3
+-y+1/3,-x+2/3,z+2/3
+-x+y+1/3,y+2/3,z+2/3
+x+1/3,x-y+2/3,z+2/3
 loop_
 _atom_site_type_symbol
 _atom_site_fract_x
@@ -16,3 +55,4 @@ _atom_site_fract_y
 _atom_site_fract_z
 _atom_site_Wyckoff_symbol
 O  0  0  .0543  2c
+O  0  0 -.0543  2c
